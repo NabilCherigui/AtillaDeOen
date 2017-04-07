@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 public class KeyUI : MonoBehaviour {
@@ -14,20 +12,18 @@ public class KeyUI : MonoBehaviour {
 		_text = GetComponent<Text> ();
 		_keyManager = _keyManager.GetComponent<KeyManager> ();
 		_text.color = new Color (_text.color.r, _text.color.g, _text.color.b, 0);
-		_keyCompare = _keyManager._KeyAmount;
+		_keyCompare = _keyManager.KeyAmount;
 		_alphaControl = 1f;
 	}
 
 	void Update(){
-		_text.text = _keyManager._KeyAmount.ToString();
-		if (_keyManager._KeyAmount > _keyCompare) {
-			_alphaControl -= 0.005f;
-			_text.color = new Color (_text.color.r, _text.color.g, _text.color.b, _alphaControl);
-			if (_alphaControl <= 0) {
-				_alphaControl = 1f;
-				_keyCompare = _keyManager._KeyAmount;
-			}
-		}
+		_text.text = _keyManager.KeyAmount.ToString();
+	    if (_keyManager.KeyAmount <= _keyCompare) return;
+	    _alphaControl -= 0.005f;
+	    _text.color = new Color (_text.color.r, _text.color.g, _text.color.b, _alphaControl);
+	    if (!(_alphaControl <= 0)) return;
+	    _alphaControl = 1f;
+	    _keyCompare = _keyManager.KeyAmount;
 	}
 
 

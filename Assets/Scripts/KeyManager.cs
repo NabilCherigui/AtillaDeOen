@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class KeyManager : MonoBehaviour {
 
@@ -10,7 +8,7 @@ public class KeyManager : MonoBehaviour {
 
 	private int _keyAmount;
 
-	public int _KeyAmount {
+	public int KeyAmount {
 		get { 
 			return _keyAmount;
 		}
@@ -21,10 +19,9 @@ public class KeyManager : MonoBehaviour {
 			_keyAmount++;
 			_key1 = _empty;
 		}
-		if (_key2 == null) {
-			_keyAmount++;
-			_key2 = _empty;
-		}
+	    if (_key2 != null) return;
+	    _keyAmount++;
+	    _key2 = _empty;
 	}
 
 }
