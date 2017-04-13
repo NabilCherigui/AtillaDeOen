@@ -7,18 +7,37 @@ public class Interact : MonoBehaviour
 {
     [SerializeField] private int _distance;
     [SerializeField] private Text _alertInteraction;
+    [SerializeField] private string _tagOfObject;
+    [SerializeField] private Image _letter;
 
-    private Vector3 _foreward;
+    private RaycastHit _hit;
+    private Ray _readingRay;
 
 	void Start () {
-	    _foreward = transform.TransformDirection(Vector3.forward);
 	    _alertInteraction = _alertInteraction.GetComponent<Text>();
+	    _letter = _letter.GetComponent<Image>();
+	    _alertInteraction.enabled = false;
+	    _letter.enabled = false;
 	}
 	
 	void Update () {
+        _readingRay = new Ray(transform.position, Vector3.forward);
 
-
-	    if (Physics.Raycast(transform.position, _foreward, _distance))
-	        print("There is something infront of me");
+	    if (Physics.Raycast(_readingRay, out _hit, _distance))
+	    {
+	        if (_hit.collider.CompareTag(_tagOfObject))
+	        {
+	            _alertInteraction.enabled = true;
+	            if (Input.GetKeyDown(KeyCode.X))
+	            {
+	                _letter.enabled = !_letter.enabled;
+	                Time.timeScale = Time.timeScale == 1 ? 0 : 1;
+	            }
+	        }
+	    }
+	    else
+	    {
+	        _alertInteraction.enabled = false;
+	    }
 	}
 }
