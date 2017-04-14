@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+// made by Thijs Dreef
 public class HealthManagement : MonoBehaviour
 {
     [SerializeField] private Image _damageFilter;
@@ -27,7 +27,7 @@ public class HealthManagement : MonoBehaviour
             SceneManager.LoadScene("Main");
         }
     }
-    private void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         _currentHealth -= damage;
         var temp = _damageFilter.color;
