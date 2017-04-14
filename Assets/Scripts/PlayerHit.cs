@@ -9,8 +9,9 @@ public class PlayerHit : MonoBehaviour
     [SerializeField] private String _attack;
     [SerializeField] private String _fall;
 
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
+        print(other.gameObject.tag);
         if (other.gameObject.tag == _attack)
         {
             _healthManagement.TakeDamage(1);
