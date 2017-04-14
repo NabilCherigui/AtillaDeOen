@@ -28,3 +28,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+Assets/_Scenes/Main.unity
+
+Assets/_Scenes/Main.unity.meta
