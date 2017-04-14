@@ -33,7 +33,7 @@ public class PlayerCamera : MonoBehaviour {
 			transform.Rotate(0, Input.GetAxis("Mouse X") * SensitivityX, 0);
 			break;
 		case RotationAxes.JoyY:
-		    _rotationY += Input.GetAxis("Mouse Y") * SensitivityY;
+			_rotationY += Input.GetAxis("Mouse Y") * SensitivityY;
 		    _rotationY = Mathf.Clamp (_rotationY, _minimumY, _maximumY);
 
 		    transform.localEulerAngles = new Vector3(-_rotationY, transform.localEulerAngles.y, 0);
