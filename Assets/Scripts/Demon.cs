@@ -8,7 +8,7 @@ public enum StateID
 	Patrol = 1,
 	Attack = 2,
 	Smell = 3,
-    Peripheral = 4,
+    Wander = 4,
     Follow = 5,
     Creep = 6
 }
@@ -31,4 +31,8 @@ public class Demon : MonoBehaviour {
 
 	}
 
+    bool Peripheral()
+    {
+        return false;
+    }
 }
