@@ -31,7 +31,7 @@ public class Demon : MonoBehaviour {
 
 	}
 
-    bool Peripheral()
+    public static bool Peripheral()
     {
         return false;
     }
