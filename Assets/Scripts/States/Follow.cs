@@ -14,7 +14,7 @@ public class Follow : State
 
     public override void Reason()
     {
-        if (!Demon.Peripheral())
+		if (!GetComponent<Demon>()._Peripheral)
         {
             GetComponent<StateMachine>().SetState(StateID.Wander);
         }

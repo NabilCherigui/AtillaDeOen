@@ -44,12 +44,18 @@ public class Demon : MonoBehaviour {
 		/** we voegen de verschillende states toe aan de state machine */
 		MakeStates();
 	}
-	
+
 	void MakeStates() {
 
 	}
 
-    public static bool Peripheral()
+	public bool _Peripheral{
+		get{ 
+			return Peripheral (); 
+		}
+	}
+
+    private bool Peripheral()
     {
         Collider[] targetsInViewRadius = Physics.OverlapSphere(transform.position, viewRadius, targetMask);
 

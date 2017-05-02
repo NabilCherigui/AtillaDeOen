@@ -34,7 +34,7 @@ public class Patrol : State
 
     public override void Reason()
     {
-        if (Demon.Peripheral())
+		if (GetComponent<Demon>()._Peripheral)
          GetComponent<StateMachine>().SetState(StateID.Follow);
     }
 }
