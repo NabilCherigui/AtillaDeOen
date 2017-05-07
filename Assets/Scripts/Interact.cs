@@ -28,7 +28,7 @@ public class Interact : MonoBehaviour
 	        if (_hit.collider.CompareTag(_tagOfObject))
 	        {
 	            _alertInteraction.enabled = true;
-	            if (Input.GetKeyDown(KeyCode.X))
+				if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown("joystick button 2"))
 	            {
 	                _letter.enabled = !_letter.enabled;
 	                Time.timeScale = Time.timeScale == 1 ? 0 : 1;
