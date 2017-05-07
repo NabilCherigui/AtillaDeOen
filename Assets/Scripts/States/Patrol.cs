@@ -5,13 +5,14 @@ using UnityEngine.AI;
 
 public class Patrol : State
 {
-    [SerializeField] private Vector3[] _patrolPoints;
+    [SerializeField] private Transform[] _patrolPoints;
     [SerializeField] private NavMeshAgent _agent;
     private int _currentGoal = 0;
 
     public override void Enter()
     {
-        _agent.SetDestination(_patrolPoints[_currentGoal]);
+        _agent.SetDestination(_patrolPoints[_currentGoal].position);
+		_agent.Resume ();
     }
 
     public override void Leave()
@@ -24,11 +25,11 @@ public class Patrol : State
         if (_agent.remainingDistance <= float.Epsilon)
         {
             _currentGoal++;
-            if (_currentGoal > _patrolPoints.Length)
+            if (_currentGoal >= _patrolPoints.Length)
             {
                 _currentGoal = 0;
             }
-            _agent.SetDestination(_patrolPoints[_currentGoal]);
+            _agent.SetDestination(_patrolPoints[_currentGoal].position);
         }
     }
 

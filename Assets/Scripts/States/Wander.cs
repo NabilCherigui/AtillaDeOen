@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class placeHolder : State
+public class Wander : State
 {
 	[SerializeField] private int _wanderTime;
 	[SerializeField] private NavMeshAgent _agent;

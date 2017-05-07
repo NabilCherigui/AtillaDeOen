@@ -7,6 +7,10 @@ public class Follow : State
 {
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private Transform _player;
+	public override void Enter ()
+	{
+		_agent.Resume ();
+	}
     public override void Act()
     {
         _agent.SetDestination(_player.position);

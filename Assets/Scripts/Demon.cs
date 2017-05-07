@@ -43,10 +43,14 @@ public class Demon : MonoBehaviour {
 
 		/** we voegen de verschillende states toe aan de state machine */
 		MakeStates();
+		stateMachine.SetState(StateID.Patrol);
 	}
 
-	void MakeStates() {
-
+	void MakeStates() 
+	{
+		stateMachine.AddState (StateID.Patrol, GetComponent<Patrol>());
+		stateMachine.AddState (StateID.Wander, GetComponent<Wander>());
+		stateMachine.AddState (StateID.Follow, GetComponent<Follow>());
 	}
 
 	public bool _Peripheral{
