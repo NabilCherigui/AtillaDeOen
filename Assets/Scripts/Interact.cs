@@ -39,6 +39,5 @@ public class Interact : MonoBehaviour
 	    {
 	        _alertInteraction.enabled = false;
 	    }
-		Debug.DrawRay (Camera.main.transform.position, Camera.main.transform.forward);
 	}
 }

@@ -51,6 +51,7 @@ public class Demon : MonoBehaviour {
 		stateMachine.AddState (StateID.Patrol, GetComponent<Patrol>());
 		stateMachine.AddState (StateID.Wander, GetComponent<Wander>());
 		stateMachine.AddState (StateID.Follow, GetComponent<Follow>());
+		stateMachine.AddState (StateID.Attack, GetComponent<Attack>());
 	}
 
 	public bool _Peripheral{

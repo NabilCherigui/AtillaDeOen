@@ -8,11 +8,12 @@ public class Attack : State
 
 	public override void Act()
 	{
-		gameObject.tag = "Attack";
+		
 	}
 
 	public override void Reason()
 	{
+		gameObject.tag = "Attack";
 		if (!GetComponent<Demon>()._Peripheral)
 		{
 			GetComponent<StateMachine>().SetState(StateID.Wander);

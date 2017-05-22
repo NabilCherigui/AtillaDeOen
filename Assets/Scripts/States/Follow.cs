@@ -7,6 +7,7 @@ public class Follow : State
 {
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private Transform _player;
+	private int delay = 60;
 	public override void Enter ()
 	{
 		_agent.Resume ();
@@ -14,6 +15,7 @@ public class Follow : State
     public override void Act()
     {
         _agent.SetDestination(_player.position);
+		delay--;
     }
 
     public override void Reason()
@@ -23,4 +25,12 @@ public class Follow : State
             GetComponent<StateMachine>().SetState(StateID.Wander);
         }
     }
+	public void OnTriggerEnter(Collider col)
+	{
+		if (delay < 0) 
+		{
+			GetComponent<StateMachine> ().SetState (StateID.Attack);
+			delay = 600;
+		}
+	}
 }
