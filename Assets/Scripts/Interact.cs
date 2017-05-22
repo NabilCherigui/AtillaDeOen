@@ -37,6 +37,9 @@ public class Interact : MonoBehaviour
 	    }
 	    else
 	    {
+
+	    }
+	    {
 	        _alertInteraction.enabled = false;
 	    }
 	}

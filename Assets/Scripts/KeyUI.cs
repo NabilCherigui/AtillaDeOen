@@ -5,19 +5,22 @@ public class KeyUI : MonoBehaviour {
 
 	[SerializeField] private KeyManager _keyManager;
 	[SerializeField] private Text _text;
-	private float _alphaControl;
+
+	[SerializeField] [Range(0,1)] private float _alphaDecrease;
+	private float _alpha;
 
 	void Start () {
 		_keyManager = _keyManager.GetComponent<KeyManager> ();
-		_text.gameObject.SetActive (false);
-		_alphaControl = 1f;
+	//	_text.gameObject.SetActive (false);
+		_alpha = _text.color.a;
 	}
 
 	void Update(){
 		_text.text = _keyManager.KeyAmount.ToString();
-		var temp = _text.color;
-		temp.a = _alphaControl -= 0.001f;
-		_text.gameObject.SetActive (true);
+		_alpha -= _alphaDecrease;
+		//_text.color = new Color(_text.color.r, _text.color.g, _text.color.b, _alpha);
+		//print(_alpha);
+		//_text.gameObject.SetActive (true);
 	}
 
 
