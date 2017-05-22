@@ -21,7 +21,7 @@ public class Interact : MonoBehaviour
 	}
 	
 	void Update () {
-        _readingRay = new Ray(transform.position, Vector3.forward);
+		_readingRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
 	    if (Physics.Raycast(_readingRay, out _hit, _distance))
 	    {
@@ -39,5 +39,6 @@ public class Interact : MonoBehaviour
 	    {
 	        _alertInteraction.enabled = false;
 	    }
+		Debug.DrawRay (Camera.main.transform.position, Camera.main.transform.forward);
 	}
 }
