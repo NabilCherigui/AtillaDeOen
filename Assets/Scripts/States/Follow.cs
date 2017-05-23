@@ -7,7 +7,7 @@ public class Follow : State
 {
     [SerializeField] private NavMeshAgent _agent;
     [SerializeField] private Transform _player;
-	private int delay = 60;
+	private int delay = 30;
 	public override void Enter ()
 	{
 		_agent.Resume ();
@@ -30,7 +30,7 @@ public class Follow : State
 		if (delay < 0) 
 		{
 			GetComponent<StateMachine> ().SetState (StateID.Attack);
-			delay = 600;
+			delay = 30;
 		}
 	}
 }

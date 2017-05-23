@@ -13,6 +13,7 @@ public class Attack : State
 
 	public override void Reason()
 	{
+        print("attacking");
 		gameObject.tag = "Attack";
 		if (!GetComponent<Demon>()._Peripheral)
 		{
