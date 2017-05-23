@@ -11,15 +11,14 @@ public class KeyUI : MonoBehaviour {
 
 	void Start () {
 		_keyManager = _keyManager.GetComponent<KeyManager> ();
-	//	_text.gameObject.SetActive (false);
+		//_text.gameObject.SetActive (false);
 		_alpha = _text.color.a;
 	}
 
 	void Update(){
 		_text.text = _keyManager.KeyAmount.ToString();
 		_alpha -= _alphaDecrease;
-		//_text.color = new Color(_text.color.r, _text.color.g, _text.color.b, _alpha);
-		//print(_alpha);
+		_text.color = new Color(_text.color.r, _text.color.g, _text.color.b, _alpha);
 		//_text.gameObject.SetActive (true);
 	}
 
