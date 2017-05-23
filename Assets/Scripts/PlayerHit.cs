@@ -16,6 +16,7 @@ public class PlayerHit : MonoBehaviour
         if (other.gameObject.tag == _attack)
         {
             _healthManagement.TakeDamage(1);
+            other.tag = "Untagged";
         }
         if (other.gameObject.tag == _fall)
         {
