@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: ceef1d55020bc254592ff4cad70d5931
-timeCreated: 1493712877
+guid: 2ced5b743b1755a48a1a618e55f34642
+timeCreated: 1496044661
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -8,8 +8,8 @@ ModelImporter:
     100000: Arm_Left
     100002: Arm_Right
     100004: Arms
-    100006: Demon:group
-    100008: //RootNode
+    100006: //RootNode
+    100008: Demon:group
     100010: Elleboog_Left
     100012: Elleboog_Right
     100014: Feet_Left
@@ -28,68 +28,68 @@ ModelImporter:
     100040: ikHandle_Pink_Right
     100042: ikHandle_Right_Arm
     100044: ikHandle_thumb
-    100046: ikHandle_Thumb_Left
-    100048: ikHandle_Thumb_Left1
-    100050: ikHandle_Wijsfinger_Left
-    100052: ikHandle_Wijsfinger_Right
-    100054: joint30
-    100056: joint31
-    100058: joint32
-    100060: joint33
-    100062: joint34
-    100064: joint35
-    100066: joint38
-    100068: joint39
-    100070: joint40
-    100072: joint41
-    100074: joint42
-    100076: joint43
-    100078: joint46
-    100080: joint47
-    100082: joint48
-    100084: joint49
-    100086: joint50
-    100088: joint51
-    100090: joint54
-    100092: joint55
-    100094: joint56
-    100096: joint57
-    100098: Knee_Left
-    100100: Knee_Right
-    100102: Left_Fingers
-    100104: Leg_Left
-    100106: Leg_Right
-    100108: Legs
-    100110: locator2
-    100112: locator3
-    100114: locator_Heel_Left
-    100116: locator_Heel_Right
-    100118: locator_Knee_Left
-    100120: locator_Knee_Right
-    100122: locator_Left_Wrist
-    100124: Mesh1
-    100126: MIddle
-    100128: Middle_ctrl
-    100130: Neck
-    100132: nurbs_Elbow_Left
-    100134: nurbs_Elbow_Right
-    100136: nurbs_Feet_Left
-    100138: nurbs_Feet_Right
-    100140: nurbs_Knee_Left
-    100142: nurbs_Knee_Right
-    100144: nurbs_Neck
-    100146: nurbs_Pink_Left
-    100148: nurbs_Pink_Right
-    100150: nurbs_Shoulder_Left
-    100152: nurbs_Shoulder_Right
-    100154: nurbs_Thumb_Left
-    100156: nurbs_Thumb_Right
-    100158: nurbs_Toes_Left
-    100160: nurbs_Toes_Right
-    100162: nurbs_Wijsfinger_Left
-    100164: nurbs_Wijsfinger_Right
-    100166: nurbs_Wrist_Left
-    100168: nurbs_Wrist_Right
+    100046: ikHandle_Thumb_Left1
+    100048: ikHandle_Wijsfinger_Left
+    100050: ikHandle_Wijsfinger_Right
+    100052: joint30
+    100054: joint31
+    100056: joint32
+    100058: joint33
+    100060: joint34
+    100062: joint35
+    100064: joint38
+    100066: joint39
+    100068: joint40
+    100070: joint41
+    100072: joint42
+    100074: joint43
+    100076: joint46
+    100078: joint47
+    100080: joint48
+    100082: joint49
+    100084: joint50
+    100086: joint51
+    100088: joint54
+    100090: joint55
+    100092: joint56
+    100094: joint57
+    100096: Knee_Left
+    100098: Knee_Right
+    100100: Left_Fingers
+    100102: Leg_Left
+    100104: Leg_Right
+    100106: Legs
+    100108: locator2
+    100110: locator3
+    100112: locator_Heel_Left
+    100114: locator_Heel_Right
+    100116: locator_Knee_Left
+    100118: locator_Knee_Right
+    100120: Mesh1
+    100122: MIddle
+    100124: Middle_ctrl
+    100126: Neck
+    100128: null1
+    100130: nurbs_Elbow_Left
+    100132: nurbs_Elbow_Right
+    100134: nurbs_Feet_Left
+    100136: nurbs_Feet_Right
+    100138: nurbs_Knee_Left
+    100140: nurbs_Knee_Right
+    100142: nurbs_Neck
+    100144: nurbs_Pink_Left
+    100146: nurbs_Pink_Right
+    100148: nurbs_Shoulder_Left
+    100150: nurbs_Shoulder_Right
+    100152: nurbs_Thumb_Left
+    100154: nurbs_Thumb_Right
+    100156: nurbs_Toes_Left
+    100158: nurbs_Toes_Right
+    100160: nurbs_Wijsfinger_Left
+    100162: nurbs_Wijsfinger_Right
+    100164: nurbs_Wrist_Left
+    100166: nurbs_Wrist_Right
+    100168: nurbsCircle1
     100170: Pols_Left
     100172: Pols_Right
     100174: Right_Fingers
@@ -101,8 +101,8 @@ ModelImporter:
     400000: Arm_Left
     400002: Arm_Right
     400004: Arms
-    400006: Demon:group
-    400008: //RootNode
+    400006: //RootNode
+    400008: Demon:group
     400010: Elleboog_Left
     400012: Elleboog_Right
     400014: Feet_Left
@@ -121,68 +121,68 @@ ModelImporter:
     400040: ikHandle_Pink_Right
     400042: ikHandle_Right_Arm
     400044: ikHandle_thumb
-    400046: ikHandle_Thumb_Left
-    400048: ikHandle_Thumb_Left1
-    400050: ikHandle_Wijsfinger_Left
-    400052: ikHandle_Wijsfinger_Right
-    400054: joint30
-    400056: joint31
-    400058: joint32
-    400060: joint33
-    400062: joint34
-    400064: joint35
-    400066: joint38
-    400068: joint39
-    400070: joint40
-    400072: joint41
-    400074: joint42
-    400076: joint43
-    400078: joint46
-    400080: joint47
-    400082: joint48
-    400084: joint49
-    400086: joint50
-    400088: joint51
-    400090: joint54
-    400092: joint55
-    400094: joint56
-    400096: joint57
-    400098: Knee_Left
-    400100: Knee_Right
-    400102: Left_Fingers
-    400104: Leg_Left
-    400106: Leg_Right
-    400108: Legs
-    400110: locator2
-    400112: locator3
-    400114: locator_Heel_Left
-    400116: locator_Heel_Right
-    400118: locator_Knee_Left
-    400120: locator_Knee_Right
-    400122: locator_Left_Wrist
-    400124: Mesh1
-    400126: MIddle
-    400128: Middle_ctrl
-    400130: Neck
-    400132: nurbs_Elbow_Left
-    400134: nurbs_Elbow_Right
-    400136: nurbs_Feet_Left
-    400138: nurbs_Feet_Right
-    400140: nurbs_Knee_Left
-    400142: nurbs_Knee_Right
-    400144: nurbs_Neck
-    400146: nurbs_Pink_Left
-    400148: nurbs_Pink_Right
-    400150: nurbs_Shoulder_Left
-    400152: nurbs_Shoulder_Right
-    400154: nurbs_Thumb_Left
-    400156: nurbs_Thumb_Right
-    400158: nurbs_Toes_Left
-    400160: nurbs_Toes_Right
-    400162: nurbs_Wijsfinger_Left
-    400164: nurbs_Wijsfinger_Right
-    400166: nurbs_Wrist_Left
-    400168: nurbs_Wrist_Right
+    400046: ikHandle_Thumb_Left1
+    400048: ikHandle_Wijsfinger_Left
+    400050: ikHandle_Wijsfinger_Right
+    400052: joint30
+    400054: joint31
+    400056: joint32
+    400058: joint33
+    400060: joint34
+    400062: joint35
+    400064: joint38
+    400066: joint39
+    400068: joint40
+    400070: joint41
+    400072: joint42
+    400074: joint43
+    400076: joint46
+    400078: joint47
+    400080: joint48
+    400082: joint49
+    400084: joint50
+    400086: joint51
+    400088: joint54
+    400090: joint55
+    400092: joint56
+    400094: joint57
+    400096: Knee_Left
+    400098: Knee_Right
+    400100: Left_Fingers
+    400102: Leg_Left
+    400104: Leg_Right
+    400106: Legs
+    400108: locator2
+    400110: locator3
+    400112: locator_Heel_Left
+    400114: locator_Heel_Right
+    400116: locator_Knee_Left
+    400118: locator_Knee_Right
+    400120: Mesh1
+    400122: MIddle
+    400124: Middle_ctrl
+    400126: Neck
+    400128: null1
+    400130: nurbs_Elbow_Left
+    400132: nurbs_Elbow_Right
+    400134: nurbs_Feet_Left
+    400136: nurbs_Feet_Right
+    400138: nurbs_Knee_Left
+    400140: nurbs_Knee_Right
+    400142: nurbs_Neck
+    400144: nurbs_Pink_Left
+    400146: nurbs_Pink_Right
+    400148: nurbs_Shoulder_Left
+    400150: nurbs_Shoulder_Right
+    400152: nurbs_Thumb_Left
+    400154: nurbs_Thumb_Right
+    400156: nurbs_Toes_Left
+    400158: nurbs_Toes_Right
+    400160: nurbs_Wijsfinger_Left
+    400162: nurbs_Wijsfinger_Right
+    400164: nurbs_Wrist_Left
+    400166: nurbs_Wrist_Right
+    400168: nurbsCircle1
     400170: Pols_Left
     400172: Pols_Right
     400174: Right_Fingers
