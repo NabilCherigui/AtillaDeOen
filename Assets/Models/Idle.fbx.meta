@@ -1,0 +1,479 @@
+fileFormatVersion: 2
+guid: fc5dce5f84608de48bc30b0eb3921257
+timeCreated: 1496041689
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_Left
+    100002: Arm_Right
+    100004: Arms
+    100006: Demon:group
+    100008: Elleboog_Left
+    100010: Elleboog_Right
+    100012: Feet_Left
+    100014: Feet_Right
+    100016: Finger_Pink_Left
+    100018: Finger_Pink_Right
+    100020: Hip
+    100022: Hip_ctrl
+    100024: //RootNode
+    100026: ikHandle4
+    100028: ikHandle_Heel_Left
+    100030: ikHandle_Heel_Right
+    100032: ikHandle_Knee_Left
+    100034: ikHandle_Knee_Right
+    100036: ikHandle_Left_Arm
+    100038: ikHandle_Pink_Left
+    100040: ikHandle_Pink_Right
+    100042: ikHandle_Right_Arm
+    100044: ikHandle_thumb
+    100046: ikHandle_Thumb_Left1
+    100048: ikHandle_Wijsfinger_Left
+    100050: ikHandle_Wijsfinger_Right
+    100052: joint30
+    100054: joint31
+    100056: joint32
+    100058: joint33
+    100060: joint34
+    100062: joint35
+    100064: joint38
+    100066: joint39
+    100068: joint40
+    100070: joint41
+    100072: joint42
+    100074: joint43
+    100076: joint46
+    100078: joint47
+    100080: joint48
+    100082: joint49
+    100084: joint50
+    100086: joint51
+    100088: joint54
+    100090: joint55
+    100092: joint56
+    100094: joint57
+    100096: Knee_Left
+    100098: Knee_Right
+    100100: Left_Fingers
+    100102: Leg_Left
+    100104: Leg_Right
+    100106: Legs
+    100108: locator2
+    100110: locator3
+    100112: locator_Heel_Left
+    100114: locator_Heel_Right
+    100116: locator_Knee_Left
+    100118: locator_Knee_Right
+    100120: Mesh1
+    100122: MIddle
+    100124: Middle_ctrl
+    100126: Neck
+    100128: null1
+    100130: nurbs_Elbow_Left
+    100132: nurbs_Elbow_Right
+    100134: nurbs_Feet_Left
+    100136: nurbs_Feet_Right
+    100138: nurbs_Knee_Left
+    100140: nurbs_Knee_Right
+    100142: nurbs_Neck
+    100144: nurbs_Pink_Left
+    100146: nurbs_Pink_Right
+    100148: nurbs_Shoulder_Left
+    100150: nurbs_Shoulder_Right
+    100152: nurbs_Thumb_Left
+    100154: nurbs_Thumb_Right
+    100156: nurbs_Toes_Left
+    100158: nurbs_Toes_Right
+    100160: nurbs_Wijsfinger_Left
+    100162: nurbs_Wijsfinger_Right
+    100164: nurbs_Wrist_Left
+    100166: nurbs_Wrist_Right
+    100168: nurbsCircle1
+    100170: Pols_Left
+    100172: Pols_Right
+    100174: Right_Fingers
+    100176: Thumb_Left
+    100178: Thumb_Right
+    100180: Upper_Body
+    100182: Wijsfinger_Left
+    100184: Wijsfinger_Right
+    400000: Arm_Left
+    400002: Arm_Right
+    400004: Arms
+    400006: Demon:group
+    400008: Elleboog_Left
+    400010: Elleboog_Right
+    400012: Feet_Left
+    400014: Feet_Right
+    400016: Finger_Pink_Left
+    400018: Finger_Pink_Right
+    400020: Hip
+    400022: Hip_ctrl
+    400024: //RootNode
+    400026: ikHandle4
+    400028: ikHandle_Heel_Left
+    400030: ikHandle_Heel_Right
+    400032: ikHandle_Knee_Left
+    400034: ikHandle_Knee_Right
+    400036: ikHandle_Left_Arm
+    400038: ikHandle_Pink_Left
+    400040: ikHandle_Pink_Right
+    400042: ikHandle_Right_Arm
+    400044: ikHandle_thumb
+    400046: ikHandle_Thumb_Left1
+    400048: ikHandle_Wijsfinger_Left
+    400050: ikHandle_Wijsfinger_Right
+    400052: joint30
+    400054: joint31
+    400056: joint32
+    400058: joint33
+    400060: joint34
+    400062: joint35
+    400064: joint38
+    400066: joint39
+    400068: joint40
+    400070: joint41
+    400072: joint42
+    400074: joint43
+    400076: joint46
+    400078: joint47
+    400080: joint48
+    400082: joint49
+    400084: joint50
+    400086: joint51
+    400088: joint54
+    400090: joint55
+    400092: joint56
+    400094: joint57
+    400096: Knee_Left
+    400098: Knee_Right
+    400100: Left_Fingers
+    400102: Leg_Left
+    400104: Leg_Right
+    400106: Legs
+    400108: locator2
+    400110: locator3
+    400112: locator_Heel_Left
+    400114: locator_Heel_Right
+    400116: locator_Knee_Left
+    400118: locator_Knee_Right
+    400120: Mesh1
+    400122: MIddle
+    400124: Middle_ctrl
+    400126: Neck
+    400128: null1
+    400130: nurbs_Elbow_Left
+    400132: nurbs_Elbow_Right
+    400134: nurbs_Feet_Left
+    400136: nurbs_Feet_Right
+    400138: nurbs_Knee_Left
+    400140: nurbs_Knee_Right
+    400142: nurbs_Neck
+    400144: nurbs_Pink_Left
+    400146: nurbs_Pink_Right
+    400148: nurbs_Shoulder_Left
+    400150: nurbs_Shoulder_Right
+    400152: nurbs_Thumb_Left
+    400154: nurbs_Thumb_Right
+    400156: nurbs_Toes_Left
+    400158: nurbs_Toes_Right
+    400160: nurbs_Wijsfinger_Left
+    400162: nurbs_Wijsfinger_Right
+    400164: nurbs_Wrist_Left
+    400166: nurbs_Wrist_Right
+    400168: nurbsCircle1
+    400170: Pols_Left
+    400172: Pols_Right
+    400174: Right_Fingers
+    400176: Thumb_Left
+    400178: Thumb_Right
+    400180: Upper_Body
+    400182: Wijsfinger_Left
+    400184: Wijsfinger_Right
+    4300000: Mesh1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Arms/Arm_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38/joint40
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38/joint40/joint42
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left/joint54
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left/joint54/joint56
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46/joint48
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46/joint48/joint50
+        weight: 1
+      - path: Arms/Arm_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39/joint41
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39/joint41/joint43
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right/joint55
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right/joint55/joint57
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47/joint49
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47/joint49/joint51
+        weight: 1
+      - path: Demon:group
+        weight: 1
+      - path: Demon:group/Mesh1
+        weight: 1
+      - path: Hip_ctrl
+        weight: 1
+      - path: Hip_ctrl/Hip
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle/Upper_Body
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle/Upper_Body/Neck
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Neck
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Neck/ikHandle4
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Shoulder_Left
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Shoulder_Right
+        weight: 1
+      - path: Left_Fingers
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: Legs/Leg_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31/joint33
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31/joint35
+        weight: 1
+      - path: Legs/Leg_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30/joint32
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30/joint34
+        weight: 1
+      - path: nurbs_Elbow_Left
+        weight: 1
+      - path: nurbs_Elbow_Left/locator3
+        weight: 1
+      - path: nurbs_Elbow_Right
+        weight: 1
+      - path: nurbs_Elbow_Right/locator2
+        weight: 1
+      - path: nurbs_Feet_Left
+        weight: 1
+      - path: nurbs_Feet_Left/ikHandle_Heel_Left
+        weight: 1
+      - path: nurbs_Feet_Left/locator_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left/ikHandle_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left/locator_Heel_Left
+        weight: 1
+      - path: nurbs_Feet_Right
+        weight: 1
+      - path: nurbs_Feet_Right/ikHandle_Heel_Right
+        weight: 1
+      - path: nurbs_Feet_Right/locator_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right/ikHandle_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right/locator_Heel_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Toes_Right
+        weight: 1
+      - path: nurbs_Toes_Left
+        weight: 1
+      - path: nurbs_Wrist_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/ikHandle_Left_Arm
+        weight: 1
+      - path: nurbs_Wrist_Left/ikHandle_Left_Arm/null1
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Pink_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Pink_Left/ikHandle_Pink_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Thumb_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Thumb_Left/ikHandle_Thumb_Left1
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Wijsfinger_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Wijsfinger_Left/ikHandle_Wijsfinger_Left
+        weight: 1
+      - path: nurbs_Wrist_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/ikHandle_Right_Arm
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Pink_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Pink_Right/ikHandle_Wijsfinger_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Thumb_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Thumb_Right/ikHandle_thumb
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Wijsfinger_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Wijsfinger_Right/ikHandle_Pink_Right
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
