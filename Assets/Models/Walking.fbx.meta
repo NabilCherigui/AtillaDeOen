@@ -403,7 +403,407 @@ ModelImporter:
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Arms
+        weight: 1
+      - path: Arms/Arm_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38/joint40
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Finger_Pink_Left/joint38/joint40/joint42
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left/joint54
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Thumb_Left/joint54/joint56
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46/joint48
+        weight: 1
+      - path: Arms/Arm_Left/Elleboog_Left/Pols_Left/Wijsfinger_Left/joint46/joint48/joint50
+        weight: 1
+      - path: Arms/Arm_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39/joint41
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Finger_Pink_Right/joint39/joint41/joint43
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right/joint55
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Thumb_Right/joint55/joint57
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47/joint49
+        weight: 1
+      - path: Arms/Arm_Right/Elleboog_Right/Pols_Right/Wijsfinger_Right/joint47/joint49/joint51
+        weight: 1
+      - path: Demon:group
+        weight: 1
+      - path: Demon:group/Mesh1
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/Demon1:group
+        weight: 1
+      - path: group/Demon1:group/pasted__Mesh1
+        weight: 1
+      - path: group/pasted__Arms
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Finger_Pink_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Finger_Pink_Left/pasted__joint38
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Finger_Pink_Left/pasted__joint38/pasted__joint40
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Finger_Pink_Left/pasted__joint38/pasted__joint40/pasted__joint42
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Thumb_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Thumb_Left/pasted__joint54
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Thumb_Left/pasted__joint54/pasted__joint56
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Wijsfinger_Left
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Wijsfinger_Left/pasted__joint46
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Wijsfinger_Left/pasted__joint46/pasted__joint48
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Left/pasted__Elleboog_Left/pasted__Pols_Left/pasted__Wijsfinger_Left/pasted__joint46/pasted__joint48/pasted__joint50
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Finger_Pink_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Finger_Pink_Right/pasted__joint39
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Finger_Pink_Right/pasted__joint39/pasted__joint41
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Finger_Pink_Right/pasted__joint39/pasted__joint41/pasted__joint43
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Thumb_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Thumb_Right/pasted__joint55
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Thumb_Right/pasted__joint55/pasted__joint57
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Wijsfinger_Right
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Wijsfinger_Right/pasted__joint47
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Wijsfinger_Right/pasted__joint47/pasted__joint49
+        weight: 1
+      - path: group/pasted__Arms/pasted__Arm_Right/pasted__Elleboog_Right/pasted__Pols_Right/pasted__Wijsfinger_Right/pasted__joint47/pasted__joint49/pasted__joint51
+        weight: 1
+      - path: group/pasted__Hip_ctrl
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Hip
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__MIddle
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__MIddle/pasted__Upper_Body
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__MIddle/pasted__Upper_Body/pasted__Neck
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__nurbs_Neck
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__nurbs_Neck/pasted__ikHandle4
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__nurbs_Shoulder_Left
+        weight: 1
+      - path: group/pasted__Hip_ctrl/pasted__Middle_ctrl/pasted__nurbs_Shoulder_Right
+        weight: 1
+      - path: group/pasted__Left_Fingers
+        weight: 1
+      - path: group/pasted__Legs
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left/pasted__Knee_Left
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left/pasted__Knee_Left/pasted__Feet_Left
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left/pasted__Knee_Left/pasted__Feet_Left/pasted__joint31
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left/pasted__Knee_Left/pasted__Feet_Left/pasted__joint31/pasted__joint33
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Left/pasted__Knee_Left/pasted__Feet_Left/pasted__joint31/pasted__joint35
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right/pasted__Knee_Right
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right/pasted__Knee_Right/pasted__Feet_Right
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right/pasted__Knee_Right/pasted__Feet_Right/pasted__joint30
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right/pasted__Knee_Right/pasted__Feet_Right/pasted__joint30/pasted__joint32
+        weight: 1
+      - path: group/pasted__Legs/pasted__Leg_Right/pasted__Knee_Right/pasted__Feet_Right/pasted__joint30/pasted__joint34
+        weight: 1
+      - path: group/pasted__nurbs_Elbow_Left
+        weight: 1
+      - path: group/pasted__nurbs_Elbow_Left/pasted__locator3
+        weight: 1
+      - path: group/pasted__nurbs_Elbow_Right
+        weight: 1
+      - path: group/pasted__nurbs_Elbow_Right/pasted__locator2
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left/pasted__ikHandle_Heel_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left/pasted__locator_Knee_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left/pasted__nurbs_Knee_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left/pasted__nurbs_Knee_Left/pasted__ikHandle_Knee_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Left/pasted__nurbs_Knee_Left/pasted__locator_Heel_Left
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__ikHandle_Heel_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__locator_Knee_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__nurbs_Knee_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__nurbs_Knee_Right/pasted__ikHandle_Knee_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__nurbs_Knee_Right/pasted__locator_Heel_Right
+        weight: 1
+      - path: group/pasted__nurbs_Feet_Right/pasted__nurbs_Toes_Right
+        weight: 1
+      - path: group/pasted__nurbs_Toes_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__ikHandle_Left_Arm
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__ikHandle_Left_Arm/pasted__null1
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Pink_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Pink_Left/pasted__ikHandle_Pink_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Thumb_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Thumb_Left/pasted__ikHandle_Thumb_Left1
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Wijsfinger_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Left/pasted__nurbs_Wijsfinger_Left/pasted__ikHandle_Wijsfinger_Left
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__ikHandle_Right_Arm
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Pink_Right
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Pink_Right/pasted__ikHandle_Wijsfinger_Right
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Thumb_Right
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Thumb_Right/pasted__ikHandle_thumb
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Wijsfinger_Right
+        weight: 1
+      - path: group/pasted__nurbs_Wrist_Right/pasted__nurbs_Wijsfinger_Right/pasted__ikHandle_Pink_Right
+        weight: 1
+      - path: group/pasted__nurbsCircle1
+        weight: 1
+      - path: group/pasted__Right_Fingers
+        weight: 1
+      - path: Hip_ctrl
+        weight: 1
+      - path: Hip_ctrl/Hip
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle/Upper_Body
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/MIddle/Upper_Body/Neck
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Neck
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Neck/ikHandle4
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Shoulder_Left
+        weight: 1
+      - path: Hip_ctrl/Middle_ctrl/nurbs_Shoulder_Right
+        weight: 1
+      - path: Left_Fingers
+        weight: 1
+      - path: Legs
+        weight: 1
+      - path: Legs/Leg_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31/joint33
+        weight: 1
+      - path: Legs/Leg_Left/Knee_Left/Feet_Left/joint31/joint35
+        weight: 1
+      - path: Legs/Leg_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30/joint32
+        weight: 1
+      - path: Legs/Leg_Right/Knee_Right/Feet_Right/joint30/joint34
+        weight: 1
+      - path: nurbs_Elbow_Left
+        weight: 1
+      - path: nurbs_Elbow_Left/locator3
+        weight: 1
+      - path: nurbs_Elbow_Right
+        weight: 1
+      - path: nurbs_Elbow_Right/locator2
+        weight: 1
+      - path: nurbs_Feet_Left
+        weight: 1
+      - path: nurbs_Feet_Left/ikHandle_Heel_Left
+        weight: 1
+      - path: nurbs_Feet_Left/locator_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left/ikHandle_Knee_Left
+        weight: 1
+      - path: nurbs_Feet_Left/nurbs_Knee_Left/locator_Heel_Left
+        weight: 1
+      - path: nurbs_Feet_Right
+        weight: 1
+      - path: nurbs_Feet_Right/ikHandle_Heel_Right
+        weight: 1
+      - path: nurbs_Feet_Right/locator_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right/ikHandle_Knee_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Knee_Right/locator_Heel_Right
+        weight: 1
+      - path: nurbs_Feet_Right/nurbs_Toes_Right
+        weight: 1
+      - path: nurbs_Toes_Left
+        weight: 1
+      - path: nurbs_Wrist_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/ikHandle_Left_Arm
+        weight: 1
+      - path: nurbs_Wrist_Left/ikHandle_Left_Arm/null1
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Pink_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Pink_Left/ikHandle_Pink_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Thumb_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Thumb_Left/ikHandle_Thumb_Left1
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Wijsfinger_Left
+        weight: 1
+      - path: nurbs_Wrist_Left/nurbs_Wijsfinger_Left/ikHandle_Wijsfinger_Left
+        weight: 1
+      - path: nurbs_Wrist_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/ikHandle_Right_Arm
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Pink_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Pink_Right/ikHandle_Wijsfinger_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Thumb_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Thumb_Right/ikHandle_thumb
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Wijsfinger_Right
+        weight: 1
+      - path: nurbs_Wrist_Right/nurbs_Wijsfinger_Right/ikHandle_Pink_Right
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: Right_Fingers
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

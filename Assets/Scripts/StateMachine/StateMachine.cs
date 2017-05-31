@@ -15,6 +15,8 @@ public class StateMachine : MonoBehaviour {
 
 	/** een verwijzing naar de huidige staat waarin we verkeren */
 	private State currentState;
+
+	public Animator animator;
 	
 	void Update () {
 		// als we een state hebben: uitvoeren die hap
@@ -22,7 +24,6 @@ public class StateMachine : MonoBehaviour {
 			currentState.Reason();
 			currentState.Act();
 		}
-		
 	}
 
 	/// <summary>
