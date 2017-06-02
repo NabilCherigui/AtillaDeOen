@@ -21,10 +21,9 @@ public class Interact : MonoBehaviour
 	}
 	
 	void Update () {
-		_readingRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
-
-	    if (Physics.Raycast(_readingRay, out _hit, _distance))
-	    {
+        _readingRay = new Ray(this.transform.position, this.transform.forward);
+        if (Physics.Raycast(_readingRay, out _hit, _distance))
+        { 
 	        if (_hit.collider.CompareTag(_tagOfObject))
 	        {
 	            _alertInteraction.enabled = true;
@@ -36,11 +35,10 @@ public class Interact : MonoBehaviour
 	        }
 	    }
 	    else
-	    {
-
-	    }
-	    {
-	        _alertInteraction.enabled = false;
-	    }
-	}
+        {
+            _alertInteraction.enabled = false;
+        }
+        if (_letter.IsActive())
+            _alertInteraction.enabled = false;
+    }
 }

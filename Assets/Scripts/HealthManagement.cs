@@ -44,6 +44,7 @@ public class HealthManagement : MonoBehaviour
         var temp = _deathFilter.color;
         temp.a = 1;
         _deathFilter.color = temp;
+        Camera.main.clearFlags = CameraClearFlags.SolidColor;
         _restartText.gameObject.SetActive(true);
     }
 }
