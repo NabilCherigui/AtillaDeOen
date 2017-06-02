@@ -4,26 +4,44 @@ using UnityEngine.UI;
 public class KeyUI : MonoBehaviour {
 
 	[SerializeField] private KeyManager _keyManager;
-	private Text _text;
-	private float _alphaControl;
-	private int _keyCompare;
+	[SerializeField] private Text _text;
+	[SerializeField] private int _sizeDecrease;
+	[SerializeField] [Range(0,1)] private float _alphaDecrease;
+
+	private int _normalSize;
+	private int _keyAmount;
+	private float _normalAlpha;
+	private float _alpha;
+
+
 
 	void Start () {
-		_text = GetComponent<Text> ();
 		_keyManager = _keyManager.GetComponent<KeyManager> ();
-		_text.color = new Color (_text.color.r, _text.color.g, _text.color.b, 0);
-		_keyCompare = _keyManager.KeyAmount;
-		_alphaControl = 1f;
+		_normalAlpha = _text.color.a;
+		_alpha = _text.color.a;
+		_normalSize = _text.fontSize;
+		_keyAmount = _keyManager.KeyAmount;
+		_text.text = "";
 	}
 
 	void Update(){
-		_text.text = _keyManager.KeyAmount.ToString();
-	    if (_keyManager.KeyAmount <= _keyCompare) return;
-	    _alphaControl -= 0.005f;
-	    _text.color = new Color (_text.color.r, _text.color.g, _text.color.b, _alphaControl);
-	    if (!(_alphaControl <= 0)) return;
-	    _alphaControl = 1f;
-	    _keyCompare = _keyManager.KeyAmount;
+		if (_keyManager.KeyAmount > _keyAmount)
+		{
+			if (_text.fontSize < 0)
+			{
+				_text.fontSize = _normalSize;
+				_keyAmount = _keyManager.KeyAmount;
+				_text.color = new Color(_text.color.r, _text.color.g, _text.color.b, _normalAlpha);
+				_text.text = "";
+			}
+			else
+			{
+				_text.fontSize -= _sizeDecrease;
+				_alpha -= _alphaDecrease;
+				_text.color = new Color(_text.color.r, _text.color.g, _text.color.b, _alpha);
+				_text.text = _keyManager.KeyAmount.ToString();
+			}
+		}
 	}
 
 

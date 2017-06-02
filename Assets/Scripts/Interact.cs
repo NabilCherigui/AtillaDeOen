@@ -21,14 +21,14 @@ public class Interact : MonoBehaviour
 	}
 	
 	void Update () {
-        _readingRay = new Ray(transform.position, Vector3.forward);
+		_readingRay = new Ray(Camera.main.transform.position, Camera.main.transform.forward);
 
 	    if (Physics.Raycast(_readingRay, out _hit, _distance))
 	    {
 	        if (_hit.collider.CompareTag(_tagOfObject))
 	        {
 	            _alertInteraction.enabled = true;
-	            if (Input.GetKeyDown(KeyCode.X))
+				if (Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown("joystick button 2"))
 	            {
 	                _letter.enabled = !_letter.enabled;
 	                Time.timeScale = Time.timeScale == 1 ? 0 : 1;
@@ -36,6 +36,9 @@ public class Interact : MonoBehaviour
 	        }
 	    }
 	    else
+	    {
+
+	    }
 	    {
 	        _alertInteraction.enabled = false;
 	    }
