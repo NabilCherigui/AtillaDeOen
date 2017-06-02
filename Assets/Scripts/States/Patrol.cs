@@ -10,7 +10,6 @@ public class Patrol : State
     [SerializeField] private NavMeshAgent _agent;
     
     private float _animationTime1 = 1.333f;
-    private float _animationTime2 = 0.54f;
     private float _timeCompare;
 
     private int _currentGoal = 0;
@@ -18,7 +17,6 @@ public class Patrol : State
     public override void Enter()
     {
         _agent.SetDestination(_patrolPoints[_currentGoal].position);
-        _timeCompare = Time.time + _animationTime1;
 		_agent.Resume ();
     }
 
@@ -39,19 +37,15 @@ public class Patrol : State
             _agent.SetDestination(_patrolPoints[_currentGoal].position);
         }
         
-        if (GetComponent<StateMachine>().animator.GetInteger("States") != 3)
+        /*if (GetComponent<StateMachine>().animator.GetInteger("States") == 0)
         {
-
-            if (GetComponent<StateMachine>().animator.GetInteger("States") == 1 && _timeCompare < Time.time)
-            {
-                GetComponent<StateMachine>().animator.SetInteger("States", 2);
-            }
-            else
-            {
-                GetComponent<StateMachine>().animator.SetInteger("States", 1);   
-            }
-            
+            _timeCompare = Time.time + _animationTime1;
+                GetComponent<StateMachine>().animator.SetInteger("States", 1);
         }
+        else if (GetComponent<StateMachine>().animator.GetInteger("States") == 1 && _timeCompare < Time.time)
+        {
+            GetComponent<StateMachine>().animator.SetInteger("States", 2);
+        }*/
     }
 
     public override void Reason()

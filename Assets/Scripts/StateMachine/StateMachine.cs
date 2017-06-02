@@ -16,7 +16,7 @@ public class StateMachine : MonoBehaviour {
 	/** een verwijzing naar de huidige staat waarin we verkeren */
 	private State currentState;
 
-	public Animator animator;
+	//public Animator animator;
 	
 	void Update () {
 		// als we een state hebben: uitvoeren die hap
